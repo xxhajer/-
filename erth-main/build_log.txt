@@ -1,0 +1,24 @@
+
+> erth-platform@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.3
+
+
+> Build error occurred
+Error: EINVAL: invalid argument, readlink 'C:\Users\USER\OneDrive\Desktop\erth-main\erth-main\.next\server\app-paths-manifest.json'
+    at async Object.readlink (node:internal/fs/promises:973:10)
+    at async C:\Users\USER\OneDrive\Desktop\erth-main\erth-main\node_modules\next\dist\lib\recursive-delete.js:58:30
+    at async Promise.all (index 1)
+    at async recursiveDelete (C:\Users\USER\OneDrive\Desktop\erth-main\erth-main\node_modules\next\dist\lib\recursive-delete.js:51:5)
+    at async C:\Users\USER\OneDrive\Desktop\erth-main\erth-main\node_modules\next\dist\lib\recursive-delete.js:68:17
+    at async Promise.all (index 4)
+    at async recursiveDelete (C:\Users\USER\OneDrive\Desktop\erth-main\erth-main\node_modules\next\dist\lib\recursive-delete.js:51:5)
+    at async C:\Users\USER\OneDrive\Desktop\erth-main\erth-main\node_modules\next\dist\build\index.js:692:17
+    at async Span.traceAsyncFn (C:\Users\USER\OneDrive\Desktop\erth-main\erth-main\node_modules\next\dist\trace\trace.js:154:20)
+    at async build (C:\Users\USER\OneDrive\Desktop\erth-main\erth-main\node_modules\next\dist\build\index.js:366:9) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: 'C:\\Users\\USER\\OneDrive\\Desktop\\erth-main\\erth-main\\.next\\server\\app-paths-manifest.json'
+}
